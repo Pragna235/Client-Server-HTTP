@@ -13,6 +13,9 @@
   },
   "author": "Pragna",
   "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
   "bugs": {
     "url": "https://github.com/Pragna235/Client-Server-HTTP/issues"
   },
