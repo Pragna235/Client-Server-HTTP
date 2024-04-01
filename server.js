@@ -11,4 +11,6 @@ res.end('Hello World\n Welcome to Node Js with GET');
 }
 }
 const server = http.createServer(requestListener); 
-server.listen(port, hostname);
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
