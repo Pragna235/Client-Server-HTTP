@@ -1,6 +1,6 @@
 const http = require('http'); 
 const hostname = '127.0.0.1'; 
-const port = 3000;
+const port = process.env.PORT || 3000;
 const requestListener = function(req,res){ 
 res.statusCode = 200; res.setHeader('ContentType','text/plain');
 if(req.method==='POST'){
